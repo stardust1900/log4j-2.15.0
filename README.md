@@ -1,18 +1,16 @@
 # 修复Apache Log4j 2 远程代码执行漏洞
 
-` 
-  <dependency>
+<dependency>
     <groupId>org.apache.logging.log4j</groupId>
     <artifactId>log4j-api</artifactId>
     <version>2.15.0</version>
-  </dependency>
+</dependency>
 
 <dependency>
     <groupId>org.apache.logging.log4j</groupId>
     <artifactId>log4j-core</artifactId>
     <version>2.15.0</version>
 </dependency>
-`
 
 # 编译的jdk版本
 
